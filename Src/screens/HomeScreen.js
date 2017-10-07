@@ -1,12 +1,46 @@
 import React, {Component} from "react";
 import {Button, Dimensions, StyleSheet, Text, View} from "react-native";
-import {Actions} from "react-native-router-flux";
+import {Actions, Drawer} from "react-native-router-flux";
+
+
 
 export default class HomeScreen extends Component {
+    // static navigationOptions = {
+    //     title: 'Welcome',
+    //     headerRight:
+    //         <View style ={{     paddingHorizontal:20,   flexDirection: 'row',
+    //         }}>
+    //             <Button
+    //                 color='#9467AA'
+    //                 title='Применить'
+    //                 // onPress={() =>
+    //                 //     Actions.setting()
+    //                 // }
+    //             />
+    //             <View  style ={{     paddingHorizontal:20 }}/>
+    //             <Button
+    //                 color='#9467AA'
+    //                 title='Применить'
+    //                 // onPress={() =>
+    //                 //     Actions.setting()
+    //                 // }
+    //             />
+    //             <View  style ={{     paddingHorizontal:20 }}/>
+    //             <Button
+    //                 color='#9467AA'
+    //                 title='Применить'
+    //                 // onPress={() =>
+    //                 //     Actions.setting()
+    //                 // }
+    //             />
+    //         </View>
+    //
+    // };
 
 
     render() {
         return (
+
             <View >
                 <Text>
                     Welcome to React Native!
@@ -14,10 +48,10 @@ export default class HomeScreen extends Component {
                 <Button
                     color='#9467AA'
                     title='Применить'
-                    onPress={() =>
-                        Actions.setting()
-                    }
+                     onPress={() =>
+                         Actions.setting() }
                 />
+
                 <Text>
                 </Text>
             </View>
